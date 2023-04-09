@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Head from "next/head";
+import Table from "./components/table";
 import { Inter } from "next/font/google";
 import { BiUserPlus } from "react-icons/bi";
+import { BiaEdit, BiTrashAlt } from "react-icons/bi";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +30,9 @@ export default function Home() {
             </button>
           </div>
         </div>
+        <dvi className="container mx-auto">
+          <Table />
+        </dvi>
       </main>
     </section>
   );
