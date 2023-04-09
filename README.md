@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+
+#Creating Curd App called Employee Management using next js as framework and mongoDB for database of the project.
+#It is begineer friendly project 
+
 First, run the development server:
 
 ```bash
